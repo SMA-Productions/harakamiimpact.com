@@ -1,36 +1,41 @@
  .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(133,142,153,0.2), rgba(133,142,153,0.2)), url("images/tumblr_eb333ca5aaf2cb0ab63e2a3b7b0617c3_07eed440_540.gif");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("images/genshin-genshin-impact.gif");
   background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
   min-height: 843px;
 }
 
 .u-section-1 .u-text-1 {
-  font-size: 6rem;
   font-weight: 700;
-  margin: 149px auto 0 calc(((100% - 1140px) / 2) + 181px);
-}
-
-.u-section-1 .u-text-2 {
-  line-height: 1.8;
-  font-size: 1.875rem;
-  margin: 0 325px 0 324px;
+  font-size: 2.25rem;
+  margin: 54px auto 0 0;
 }
 
 .u-section-1 .u-layout-wrap-1 {
-  width: calc(((100% - 1140px) / 2) + 711px);
-  margin: 10px 0 0 auto;
+  width: 1076px;
+  margin: 202px auto 60px;
 }
 
 .u-section-1 .u-layout-cell-1 {
   min-height: 370px;
+  background-image: none;
 }
 
 .u-section-1 .u-container-layout-1 {
   padding: 30px;
 }
 
+.u-section-1 .u-text-2 {
+  line-height: 1.8;
+  font-size: 1.875rem;
+  margin: 6px 51px 0 0;
+}
+
 .u-section-1 .u-layout-cell-2 {
   min-height: 370px;
+  background-image: none;
 }
 
 .u-section-1 .u-container-layout-2 {
@@ -38,87 +43,94 @@
 }
 
 .u-section-1 .u-text-3 {
-  font-size: 1.125rem;
-  margin: 10px 63px 0 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 63px 0 0;
 }
 
-.u-section-1 .u-text-4 {
+.u-section-1 .u-btn-1 {
+  border-style: none;
   font-weight: 700;
-  margin: 78px 560px 53px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.25rem;
+  background-image: none;
+  margin: 18px auto 0 0;
+  padding: 20px 55px 21px 54px;
+}
+
+.u-section-1 .u-btn-2 {
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.25rem;
+  background-image: none;
+  align-self: center;
+  margin: 20px auto 0 0;
+  padding: 20px 55px 21px 54px;
 }
 
 @media (max-width: 1199px) {
-   .u-section-1 {
-    min-height: 1112px;
+  .u-section-1 .u-sheet-1 {
+    min-height: 695px;
   }
 
   .u-section-1 .u-text-1 {
-    width: auto;
-    margin-left: auto;
-  }
-
-  .u-section-1 .u-text-2 {
-    width: 591px;
-    margin-left: calc(((100% - 940px) / 2) + 174px);
-    margin-right: calc(((100% - 940px) / 2) + 174px);
-    animation-duration: 1000ms;
+    font-size: 10.625rem;
   }
 
   .u-section-1 .u-layout-wrap-1 {
-    width: calc(((100% - 940px) / 2) + 711px);
+    width: 940px;
   }
 
-  .u-section-1 .u-text-4 {
-    width: auto;
-    margin: 352px calc(((100% - 940px) / 2) + 422px) 47px calc(((100% - 940px) / 2) + 398px);
+  .u-section-1 .u-layout-cell-1 {
+    min-height: 323px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 323px;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-btn-1 {
+    align-self: center;
   }
 }
 
 @media (max-width: 991px) {
-   .u-section-1 {
-    min-height: 852px;
+  .u-section-1 .u-sheet-1 {
+    min-height: 262px;
   }
 
   .u-section-1 .u-text-1 {
     font-size: 7.5rem;
-  }
-
-  .u-section-1 .u-text-2 {
-    margin-left: 114px;
-    margin-right: 115px;
+    width: auto;
   }
 
   .u-section-1 .u-layout-wrap-1 {
-    width: calc(((100% - 720px) / 2) + 711px);
+    width: 720px;
+  }
+
+  .u-section-1 .u-layout-cell-1 {
+    min-height: 100px;
   }
 
   .u-section-1 .u-layout-cell-2 {
     min-height: 100px;
   }
-
-  .u-section-1 .u-text-4 {
-    margin-left: calc(((100% - 720px) / 2) + 288px);
-    margin-right: calc(((100% - 720px) / 2) + 312px);
-  }
 }
 
 @media (max-width: 767px) {
-   .u-section-1 {
-    min-height: 931px;
-  }
-
-  .u-section-1 .u-text-2 {
-    width: 540px;
-    margin-left: calc(((100% - 540px) / 2));
-    margin-right: calc(((100% - 540px) / 2));
-  }
-
   .u-section-1 .u-layout-wrap-1 {
-    width: calc(((100% - 540px) / 2) + 540px);
-  }
-
-  .u-section-1 .u-layout-cell-1 {
-    min-height: 562px;
+    width: 540px;
   }
 
   .u-section-1 .u-container-layout-1 {
@@ -129,115 +141,16 @@
   .u-section-1 .u-container-layout-2 {
     padding-left: 10px;
   }
-
-  .u-section-1 .u-text-4 {
-    margin-left: calc(((100% - 540px) / 2) + 198px);
-    margin-right: calc(((100% - 540px) / 2) + 222px);
-  }
 }
 
 @media (max-width: 575px) {
-   .u-section-1 {
-    min-height: 1484px;
-  }
-
   .u-section-1 .u-text-1 {
     font-size: 4.375rem;
   }
 
-  .u-section-1 .u-text-2 {
-    width: 340px;
-    margin-left: calc(((100% - 340px) / 2));
-    margin-right: calc(((100% - 340px) / 2));
-  }
-
   .u-section-1 .u-layout-wrap-1 {
-    width: calc(((100% - 340px) / 2) + 340px);
-  }
-
-  .u-section-1 .u-layout-cell-1 {
-    min-height: 354px;
-  }
-
-  .u-section-1 .u-text-3 {
-    margin-right: 0;
-  }
-
-  .u-section-1 .u-text-4 {
-    margin-right: calc(((100% - 340px) / 2) + 122px);
-    margin-bottom: 10px;
-    margin-left: calc(((100% - 340px) / 2) + 98px);
-  }
-} .u-section-2 {
-  background-image: linear-gradient(0deg, rgba(41,45,51,0.25), rgba(41,45,51,0.25)), url("images/tumblr_f890dbdf0e16a4017b716ca8416b2d57_daeee343_540.gif");
-  background-position: 50% 50%;
-}
-
-.u-section-2 .u-sheet-1 {
-  min-height: 800px;
-}
-
-.u-section-2 .u-text-1 {
-  font-size: 6rem;
-  font-weight: 700;
-  margin: 60px auto 0;
-}
-
-.u-section-2 .u-text-2 {
-  font-size: 1.25rem;
-  margin: 30px auto 0;
-}
-
-.u-section-2 .u-btn-1 {
-  background-image: none;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 1.875rem;
-  margin: 40px auto 60px;
-}
-
-@media (max-width: 1199px) {
-  .u-section-2 .u-sheet-1 {
-    min-height: 660px;
-  }
-
-  .u-section-2 .u-text-1 {
-    font-size: 6.25rem;
-  }
-
-  .u-section-2 .u-text-2 {
-    font-size: 1.375rem;
+    margin-right: initial;
+    margin-left: initial;
     width: auto;
-    margin-top: 14px;
-  }
-
-  .u-section-2 .u-btn-1 {
-    margin-top: 56px;
-  }
-}
-
-@media (max-width: 991px) {
-  .u-section-2 .u-sheet-1 {
-    min-height: 506px;
-  }
-}
-
-@media (max-width: 767px) {
-  .u-section-2 .u-sheet-1 {
-    min-height: 380px;
-  }
-
-  .u-section-2 .u-text-1 {
-    font-size: 6rem;
-  }
-}
-
-@media (max-width: 575px) {
-  .u-section-2 .u-sheet-1 {
-    min-height: 239px;
-  }
-
-  .u-section-2 .u-text-1 {
-    font-size: 3.75rem;
   }
 }
