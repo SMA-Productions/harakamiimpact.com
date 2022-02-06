@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("images/genshin-genshin-impact.gif");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url("images/s56c7eivtb271.png");
   background-position: 50% 50%;
 }
 
@@ -8,44 +8,16 @@
 }
 
 .u-section-1 .u-text-1 {
+  font-size: 9.375rem;
   font-weight: 700;
-  font-size: 2.25rem;
-  margin: 54px auto 0 0;
-}
-
-.u-section-1 .u-layout-wrap-1 {
-  width: 1076px;
-  margin: 202px auto 60px;
-}
-
-.u-section-1 .u-layout-cell-1 {
-  min-height: 370px;
-  background-image: none;
-}
-
-.u-section-1 .u-container-layout-1 {
-  padding: 30px;
+  margin: 129px auto 0;
 }
 
 .u-section-1 .u-text-2 {
   line-height: 1.8;
-  font-size: 1.875rem;
-  margin: 6px 51px 0 0;
-}
-
-.u-section-1 .u-layout-cell-2 {
-  min-height: 370px;
-  background-image: none;
-}
-
-.u-section-1 .u-container-layout-2 {
-  padding: 30px 0 30px 30px;
-}
-
-.u-section-1 .u-text-3 {
   font-size: 1.5rem;
-  font-weight: 700;
-  margin: 0 63px 0 0;
+  width: 135px;
+  margin: 18px auto 0;
 }
 
 .u-section-1 .u-btn-1 {
@@ -53,10 +25,11 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   background-image: none;
-  margin: 18px auto 0 0;
-  padding: 20px 55px 21px 54px;
+  align-self: center;
+  margin: 97px auto 0;
+  padding: 20px 90px 21px 89px;
 }
 
 .u-section-1 .u-btn-2 {
@@ -64,11 +37,11 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   background-image: none;
   align-self: center;
-  margin: 20px auto 0 0;
-  padding: 20px 55px 21px 54px;
+  margin: 45px auto 60px;
+  padding: 20px 117px 21px 116px;
 }
 
 @media (max-width: 1199px) {
@@ -78,79 +51,32 @@
 
   .u-section-1 .u-text-1 {
     font-size: 10.625rem;
-  }
-
-  .u-section-1 .u-layout-wrap-1 {
-    width: 940px;
-  }
-
-  .u-section-1 .u-layout-cell-1 {
-    min-height: 323px;
-  }
-
-  .u-section-1 .u-text-2 {
-    margin-right: 0;
-  }
-
-  .u-section-1 .u-layout-cell-2 {
-    min-height: 323px;
-  }
-
-  .u-section-1 .u-text-3 {
-    margin-right: 0;
-  }
-
-  .u-section-1 .u-btn-1 {
-    align-self: center;
+    animation-duration: 1500ms;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 262px;
+    min-height: 532px;
   }
 
   .u-section-1 .u-text-1 {
     font-size: 7.5rem;
-    width: auto;
-  }
-
-  .u-section-1 .u-layout-wrap-1 {
-    width: 720px;
-  }
-
-  .u-section-1 .u-layout-cell-1 {
-    min-height: 100px;
-  }
-
-  .u-section-1 .u-layout-cell-2 {
-    min-height: 100px;
   }
 }
 
 @media (max-width: 767px) {
-  .u-section-1 .u-layout-wrap-1 {
-    width: 540px;
-  }
-
-  .u-section-1 .u-container-layout-1 {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .u-section-1 .u-container-layout-2 {
-    padding-left: 10px;
+  .u-section-1 .u-sheet-1 {
+    min-height: 399px;
   }
 }
 
 @media (max-width: 575px) {
-  .u-section-1 .u-text-1 {
-    font-size: 4.375rem;
+  .u-section-1 .u-sheet-1 {
+    min-height: 251px;
   }
 
-  .u-section-1 .u-layout-wrap-1 {
-    margin-right: initial;
-    margin-left: initial;
-    width: auto;
+  .u-section-1 .u-text-1 {
+    font-size: 4.375rem;
   }
 }
